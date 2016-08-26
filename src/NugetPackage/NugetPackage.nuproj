@@ -39,5 +39,8 @@
     <ProjectReference Include="..\KDCLLC.Common.Logging.EntLib60.4.5\KDCLLC.Common.Logging.EntLib60.4.5.csproj" />
     <ProjectReference Include="..\KDCLLC.Common.Logging.EntLib60\KDCLLC.Common.Logging.EntLib60.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
   <Import Project="$(NuProjPath)\NuProj.targets" />
 </Project>
