@@ -3,6 +3,19 @@
 This project is designed to provide a Console Trace Listener 
 to Microsoft Enterprise Logging 6.0 Logging.
 
+## Bug with KDCLLC.Common.Logging.EntLib60
+
+[https://github.com/net-commons/common-logging/issues/84](https://github.com/net-commons/common-logging/issues/84)
+1. Add this line:
+```
+ Logger.SetLogWriter(new LogWriterFactory().Create());
+```
+2. Then Common.Logging
+```
+ ILog log = LogManager.GetLogger(typeof(Program));
+            log.Info("hello world");
+```
+
 ## Basic App/Web.config file:
 ```
 <?xml version="1.0" encoding="utf-8"?>
