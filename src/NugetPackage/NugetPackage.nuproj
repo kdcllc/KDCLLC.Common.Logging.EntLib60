@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>0b569aa0-a035-497f-bfe6-52fd647818cd</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(MSBuildExtensionsPath)\NuProj\</NuProjPath>
+  </PropertyGroup>
+  <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
+  <PropertyGroup Label="Configuration">
+    <Id>KDCLLC.Common.Logging.EntLib60</Id>
+    <Version>1.0.0</Version>
+    <Title>KDCLLC.Common.Logging.EntLib60</Title>
+    <Authors>King David Consulting LLC</Authors>
+    <Owners>King David Consulting LLC</Owners>
+    <Summary>Microsoft Enterprise Library Logging Application Block Console Trace Listener</Summary>
+    <Description>Microsoft Enterprise Library Logging Application Block Console Trace Listener</Description>
+    <ReleaseNotes>
+    </ReleaseNotes>
+    <ProjectUrl>https://github.com/kdcllc/KDCLLC.Common.Logging.EntLib60</ProjectUrl>
+    <LicenseUrl>https://github.com/kdcllc/KDCLLC.Common.Logging.EntLib60/blob/master/LICENSE</LicenseUrl>
+    <Copyright>Copyright © King David Consulting LLC</Copyright>
+    <Tags>Microsoft Enterprise Library Logging Application Block, Common.Logging</Tags>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KDCLLC.Common.Logging.EntLib60.4.5\KDCLLC.Common.Logging.EntLib60.4.5.csproj" />
+    <ProjectReference Include="..\KDCLLC.Common.Logging.EntLib60\KDCLLC.Common.Logging.EntLib60.csproj" />
+  </ItemGroup>
+  <Import Project="$(NuProjPath)\NuProj.targets" />
+</Project>
