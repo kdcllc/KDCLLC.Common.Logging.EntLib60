@@ -4,8 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85AE8873-FB8C-4F53-850F-142945CB038B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		ReadMe.md = ReadMe.md
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\KDCLLC.Common.Logging.EntLib60", "src\KDCLLC.Common.Logging.EntLib60\KDCLLC.Common.Logging.EntLib60.csproj", "{153CCD3C-2362-4BC8-A9DE-7F4F345F4AE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KDCLLC.Common.Logging.EntLib60", "src\KDCLLC.Common.Logging.EntLib60\KDCLLC.Common.Logging.EntLib60.csproj", "{153CCD3C-2362-4BC8-A9DE-7F4F345F4AE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,7 +30,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
 		SolutionGuid = {01F7A53E-7C88-4816-A561-4611816D46C6}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal

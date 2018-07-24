@@ -24,7 +24,7 @@ build_script:
 test: off
 
 artifacts:
-- path: .\src\Linq.DynamicQuery\bin\Release\**\*.nupkg
+- path: .\src\KDCLLC.Common.Logging.EntLib60\bin\Release\**\*.nupkg
   name: NuGet package
 
 deploy:

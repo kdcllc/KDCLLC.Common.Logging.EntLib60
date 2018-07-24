@@ -1,8 +1,13 @@
 # KDCLLC.Common.Logging.EntLib60
+[![Build status](https://ci.appveyor.com/api/projects/status/fktruduhq1c61ksr?svg=true)](https://ci.appveyor.com/project/kdcllc/kdcllc-common-logging-entlib60)
 
 This project is designed to provide a Console Trace Listener 
 to Microsoft Enterprise Logging 6.0 Logging.
 
+#Nuget
+```
+Install-Package KDCLLC.Common.Logging.EntLib60
+```
 ## Bug with KDCLLC.Common.Logging.EntLib60
 
 [https://github.com/net-commons/common-logging/issues/84](https://github.com/net-commons/common-logging/issues/84)
