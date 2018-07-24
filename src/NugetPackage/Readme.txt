@@ -1,1 +1,0 @@
-﻿Read more @https://github.com/kdcllc/KDCLLC.Common.Logging.EntLib60
